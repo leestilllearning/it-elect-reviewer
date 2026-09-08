@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Reviewer Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-area">
+                <div>
+                    <h1>Internet Technologies</h1>
+                    <p>Dynamic Learning and Assessment System</p>
+                </div>
+            </div>
+            <div class="header-controls">
+                <div id="real-time-clock" class="clock">--:--:--</div>
+                <button id="theme-toggle" class="btn-theme">🌙 Dark Mode</button>
+            </div>
+        </div>
+    </header>
+
+    <nav id="main-tabs-container" class="main-tabs"></nav>
+    <main id="app-container" class="container"></main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
